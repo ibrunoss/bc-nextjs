@@ -2,7 +2,7 @@ import { useRouter } from "next/router"
 
 import ButtonVoltarPgRotas from "../../components/Button/VoltarPgRotas"
 
-export default function params() {
+export default function Params() {
   const router = useRouter();
 
   const {nome, idade} = router.query

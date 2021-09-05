@@ -2,7 +2,7 @@ import { useRouter } from "next/router"
 
 import ButtonVoltarPgRotas from "../../../components/Button/VoltarPgRotas"
 
-export default function buscar() {
+export default function Buscar() {
   const router = useRouter();
   const codigo = router.query.id;
   return (
